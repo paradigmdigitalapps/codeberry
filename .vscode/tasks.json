@@ -1,0 +1,13 @@
+{
+
+    "version": "2.0.0",
+    "command": "xdg-open",
+    "args": [
+        "context_draw2box.html"
+    ],
+    "problemMatchers": [
+        "$eslint-compact"
+    ]
+        
+    
+}
