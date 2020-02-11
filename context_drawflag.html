@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <script>
+        var canvas = document.getElementById('canvas');
+        var ctx = canvas.getContext('2d');
+        console.log(ctx); // CanvasRenderingContext2D { ... }
+        ctx.fillStyle = 'rgba(252, 3, 28,.5)';
+        ctx.fillRect(30,40,60,20);
+        ctx.fillStyle = 'rgba(255,255,255,.5)';
+        ctx.fillRect(30,60,60,20);
+        ctx.fillStyle = 'rgba(98, 173, 5,.5)';
+        ctx.fillRect(30,80,60,20);
+    </script>
+</body>
+</html>
